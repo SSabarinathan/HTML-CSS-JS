@@ -1,24 +1,32 @@
-.forecast {
-    margin: 0;
-    padding: .3rem;
-    background-color: #eee;
-    font: 1rem 'Fira Sans', sans-serif;
+.heading{
+    font-size: 100px;
 }
 
-.forecast > h1,
-.day-forecast {
-    margin: .5rem;
-    padding: .3rem;
-    font-size: 1.2rem;
+.box{
+        width: 300px;
+        border: 9px solid rgb(30, 227, 76);
+        padding: 10px;
+        border-radius: 10px;
+        margin: 5px;
+      
+}
+.image_1{
+    width:300px;
+    height:250px;
+}
+body{
+    background-color: lavender;
+}
+h1{
+    font-size: 40px;
 }
 
-.day-forecast {
-    background: right/contain content-box border-box no-repeat
-        url('/media/examples/rain.svg') white;
-}
+.head{
+    display: flex; 
+    padding-left: 400px;
 
-.day-forecast > h2,
-.day-forecast > p {
-    margin: .2rem;
-    font-size: 1rem;
+}
+.aspire_image{
+    padding-left: 40px;
+    width: 250px;
 }
