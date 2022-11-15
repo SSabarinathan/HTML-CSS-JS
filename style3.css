@@ -1,0 +1,36 @@
+
+.heading{
+    font-size: 80px;
+    padding-left: 500px;
+}
+
+
+.animation{
+    width: 1800px;
+    height: 800px;
+}
+body{
+    background-color:aquamarine;
+}
+
+iframe {
+    border: 1px solid black;
+    width: 1000px;
+    height: 500px;
+}
+
+
+
+
+
+
+/* 
+.content {
+    position: fixed;
+    bottom: 0;
+    background :cadetblue;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+   */

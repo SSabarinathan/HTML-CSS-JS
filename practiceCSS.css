@@ -15,7 +15,9 @@
     height:250px;
 }
 body{
-    background-color: lavender;
+    background: linear-gradient(100deg, #71b7e6, #9b59b6);
+   
+    /* background-color: lavender; */
 }
 h1{
     font-size: 40px;
@@ -27,6 +29,8 @@ h1{
 
 }
 .aspire_image{
+    object-fit:contain;
+
     padding-left: 40px;
     width: 250px;
 }
