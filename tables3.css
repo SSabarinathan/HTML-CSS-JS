@@ -1,0 +1,59 @@
+
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 20px;
+    /* the space around the box */
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    letter-spacing: 1px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: .8rem;
+}
+
+.table_position{
+    margin-left: 500px;
+
+
+}
+tr{
+    background-color: lavender;
+}
+thead{
+    background-color: brown;
+
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: 10px;
+}
+
+details[open] summary {
+    border-bottom: wheat;
+    margin-bottom: 20px;
+}
+#angular_data{
+    font-style: italic;
+    color: aqua;
+
+}

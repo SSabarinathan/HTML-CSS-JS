@@ -4,7 +4,7 @@
 
 .box{
         width: 300px;
-        border: 9px solid rgb(30, 227, 76);
+        border: 9px solid rgb(221, 226, 222);
         padding: 10px;
         border-radius: 10px;
         margin: 5px;
@@ -30,7 +30,15 @@ h1{
 }
 .aspire_image{
     object-fit:contain;
-
+/* responsible for the window size */
     padding-left: 40px;
     width: 250px;
+}
+hr{
+    border-top: 10px solid lavender;
+
+}
+.mainbody{
+    margin-left: 100px;
+
 }

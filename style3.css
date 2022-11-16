@@ -1,28 +1,23 @@
-
-.heading{
-    font-size: 80px;
-    padding-left: 500px;
+.heading {
+  font-size: 80px;
+  padding-left: 500px;
 }
 
+.animation {
+  width: 1830px;
+  height: 850px;
+  border-radius:10px;
 
-.animation{
-    width: 1800px;
-    height: 800px;
 }
-body{
-    background-color:aquamarine;
+body {
+  background-color: aquamarine;
 }
 
 iframe {
-    border: 1px solid black;
-    width: 1000px;
-    height: 500px;
+  border: 1px solid black;
+  width: 1000px;
+  height: 500px;
 }
-
-
-
-
-
 
 /* 
 .content {
@@ -34,3 +29,37 @@ iframe {
     padding: 20px;
   }
    */
+
+figure {
+  margin: 0%;
+}
+.mymusic {
+  margin-left: 100px;
+}
+
+video{
+    margin-left: 200px;
+    border-radius:50px;
+
+
+}
+
+iframe{
+    margin-left: 200px;
+    border-radius:1000px;
+
+
+}
+
+.littleboy{
+    margin-left: 200px;
+
+
+}
+.book{
+    margin-left: 400px;
+    width: 500px;
+    height: 500px;
+
+
+}
