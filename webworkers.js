@@ -18,14 +18,18 @@ function small(){
     alert("It is just a small function");
 }
 
-function bgButton(){
+
+
+
+
+// function bgButton(){
     
-    var worker = new Worker('loop.js');
-    worker.onmessage= function(ev){
-        document.getElementById('loop').textContent=ev.data
-    }
+//     var worker = new Worker('loop.js');
+//     worker.onmessage= function(ev){
+//         document.getElementById('loop').textContent=ev.data
+//     }
     
-}
+// }
 
 
 
