@@ -57,3 +57,25 @@ details[open] summary {
     color: aqua;
 
 }
+
+.colspan{
+    margin-left: 500px;
+
+
+
+}
+.rowspan{
+    margin-left: 500px;
+}
+h1{
+    margin-left: 100px;
+    margin-right: 50px;
+
+    font-style: italic;
+}
+.people{
+    font-style: italic;
+    margin-right: 50px;
+    margin-left: 100px;
+
+}

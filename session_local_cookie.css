@@ -1,0 +1,115 @@
+form.button{
+
+    align-items: center;
+
+}
+
+button{
+
+    width: 70px;
+
+    height: 50px;
+
+    border: 10px;
+
+    border-radius: 20px;
+
+}
+
+*{
+
+    margin: 4px;
+
+}
+
+body{
+
+    border: 100px,100px;
+
+    margin: center;
+
+    background-image:linear-gradient(to left,lavender ,pink)
+
+}
+
+.navbar:-webkit-any-link{
+
+    text-decoration:none;
+
+    text-align: end;
+
+    padding-right:10px;
+
+    padding-top: 5px;
+
+}
+
+.navbar:hover{
+
+    display: block;
+
+}
+
+/*Class Selector*/
+
+.login-box{
+
+    border-left: 100px;
+
+    color: black;
+
+    text-align: center;
+
+}
+
+/*ID Selector*/
+
+#user{
+
+    align-items: center;
+
+}
+
+/*Type Selector*/
+
+label{
+
+    display:inline-block;
+
+    text-align: right;
+
+    width: 90px;
+
+}
+
+form{
+
+    display: block;
+
+    margin: 0 auto;
+
+    width: 300px;
+
+    text-align: center;
+
+    background-image: linear-gradient(to left, pink,lightblue);
+
+    /* Form outline */
+
+    padding: 1em;
+
+    border: 1px solid #ccc;
+
+    border-radius: 1em;
+
+    border-color: blanchedalmond;
+
+}
+
+input{
+
+    height: 50px;
+}
+.container{
+    margin-top: 220px;
+}
