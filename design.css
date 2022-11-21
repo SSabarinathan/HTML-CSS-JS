@@ -1,0 +1,135 @@
+/* .special {
+    color: orange;
+    font-weight: bold;
+  } */
+
+  .heading{
+    padding-left: 600px;
+    font-size: 80px;
+    color: black;
+
+  }
+
+  li.special {
+    color: blue;
+    font-weight: bold;
+    border-radius: 50px;
+
+  }
+
+  .second_special{
+    color: aquamarine;
+    border-radius: 50px;
+
+    
+  }
+  body{
+    padding-left: 100px;
+    padding-right: 100px;
+    background: linear-gradient(150deg, #ebb7f6, #3dcbde);
+    border-radius: 50px;
+
+  } 
+   li em{
+    color: teal;
+   }
+   /* Adjacent sibling combinator */
+   h3+p+p{
+    font-style: italic;
+
+   }
+
+   a:link{
+    color: maroon;
+    border-radius: 50px;
+
+
+   }
+   a:visited{
+    color: green;
+    border-radius: 50px;
+
+   }
+   a:hover{
+    color: gold;
+    border-radius: 50px;
+
+
+   }
+   a:active{
+    color:red;
+    border-radius: 50px;
+
+   }
+   
+   div h4{
+    background-color: chartreuse;
+    border-radius: 50px;
+
+   }
+
+   div > h4{
+    background-color: blue;
+    border-radius: 50px;
+
+
+
+   }
+
+   /* by define by the link tag along with the name of th class */
+
+a.highlight:hover {
+    color: deeppink;
+    font-size: 50px;
+    border-radius: 50px;
+
+}
+
+div{
+    background-color: #d8b9e4;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+
+
+}
+.div_over_mouse:hover{
+    background-color: red;
+}
+
+.hidden_div:hover h4{
+    display: block;
+
+}
+.hidden_h4{
+    display: none;
+    background-color: black;
+    border-radius: 50px;
+
+}
+
+.pesudo_elements::first-letter{
+    color: red;
+    font-size: 100px;
+    
+}
+.pesudo_elements::first-line{
+    color: azure;
+}
+
+
+
+
+
+.pesudo_elements::after{
+    content: url(aspire_logo.png);
+}
+
+.pesudo_elements::selection{
+    color: springgreen;
+    background-color: deeppink;
+
+   
+
+}

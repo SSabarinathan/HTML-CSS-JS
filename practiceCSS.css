@@ -42,3 +42,9 @@ hr{
     margin-left: 100px;
 
 }
+
+blockquote{
+    background-color: pink;
+    border-radius: 30px;
+    font-style: italic;
+}
