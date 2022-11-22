@@ -2,7 +2,41 @@
   body{
     padding-left: 100px;
     padding-right: 100px;
-    background: linear-gradient(550deg, #ebb7f6, #3dcbde);
+    background: linear-gradient(500deg, #ebb7f6, #3dcbde);
     border-radius: 50px;
 
   } 
+
+@media screen and (max-width: 992px){
+  body{
+    background:cyan;
+    color: white;
+  }
+
+}
+
+
+@media screen and (max-width:700px){
+  body{
+    background:hotpink;
+  }
+
+}
+
+@media screen and (max-width:500px){
+  body{
+    background:linear-gradient(100deg, #ebb7f6, #3dcbde);
+  }
+
+}
+
+div{
+  background-color:lawngreen;
+  padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  div.example {
+    display: none;
+  }
+}

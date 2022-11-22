@@ -26,6 +26,8 @@ h1{
 .head{
     display: flex; 
     padding-left: 400px;
+    
+    
 
 }
 .aspire_image{
@@ -47,4 +49,8 @@ blockquote{
     background-color: pink;
     border-radius: 30px;
     font-style: italic;
+}
+
+.total_body{
+    padding-left: 90px;
 }

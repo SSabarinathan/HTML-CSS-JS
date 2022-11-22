@@ -22,6 +22,32 @@ function small(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function bgButton(){
     
 //     var worker = new Worker('loop.js');
